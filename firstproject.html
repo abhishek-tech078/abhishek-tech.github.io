@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+<title>HTML CALCULATOR</title></head>
+<style>
+    
+ body{
+    background-color: #ffcc4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+  
+ }
+ 
+ #pclass{
+    background-color:  lightslategrey;
+    color:white;
+    position: fixed;
+    top:20px;
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 80px;
+    
+ }
+.calculator{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+.in{
+    background-color: lightslategrey;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.equal{
+    background-color: orange;
+    color:white;
+    border-radius: 25px;
+    border-color: white;
+}
+.sym{
+    background-color:lightslategray;
+    color:white;
+    border-radius:15px ;
+    border-color: white;
+
+}
+.num{
+    background-color:rgb(206, 202, 202);
+    color:black;
+     border-radius: 15px;
+     border-color: white;
+
+}
+
+ 
+</style>
+<body>
+    <div  id="pclass">
+        calculator
+    </div>
+    <div class="calculator">
+         <table >
+        <input type="text"id="display"size="10" class="in">
+        <tr>
+        <td><button class="sym">+</button></td>
+          <td><button class="sym">-</button></td>
+             <td ><button class="sym">*</button></td>
+             <td ><button class="sym">%</button></td>
+        </tr>
+        <tr>
+             <td ><button class="num">1</button></td>
+             <td ><button class="num">2</button></td>
+             <td ><button class="num">3</button></td>
+             <td><button class="equal">C</button></td>
+        </tr>
+        <tr>
+             <td ><button class="num">4</button></td>
+             <td ><button class="num">5</button></td>
+             <td ><button class="num">6</button></td>
+               <td><button class="equal">=</button></td>
+            
+        </tr>
+        <tr>
+             <td ><button class="num">7</button></td>
+               <td ><button class="num">8</button></td>
+              <td ><button class="num">9</button></td>
+              <td><button class="equal">0</button></td>
+        </tr>
+        </tr>
+    </table>
+</div>
+</body>
+
+
+</html>
